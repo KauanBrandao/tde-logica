@@ -20,19 +20,11 @@ A lógica fuzzy é amplamente utilizada para modelar sistemas com imprecisões, 
 - **Análise de Riscos**: Avaliar riscos e probabilidades em sistemas financeiros ou de segurança.
 - **Sistemas de Diagnóstico**: Diagnóstico médico baseado em sintomas imprecisos.
 
-## 3. Problema de Inteligência Artificial Resolvido com Lógica Fuzzy
+3. Problema de Inteligência Artificial Resolvido com Lógica Fuzzy
+Problema: Pesquisa Inteligente com Algoritmo Fuzzy
+A busca por termos em uma base de dados pode ser desafiadora quando há variações na forma como os usuários digitam palavras, erros de digitação ou diferenças linguísticas. Um sistema de pesquisa baseado em lógica fuzzy pode resolver esse problema, permitindo encontrar correspondências aproximadas em vez de exigir uma correspondência exata.
 
-### Problema: Controle de Temperatura de um Sistema de Climatização Inteligente
-
-O controle de temperatura em um ambiente é um problema comum que pode ser resolvido de forma eficiente utilizando a lógica fuzzy. Nesse exemplo, o sistema ajusta a intensidade do ar-condicionado ou aquecedor com base na temperatura ambiente, mantendo o ambiente confortável.
-
-#### Regras Fuzzy para Controle de Temperatura:
-- Se a temperatura é **fria**, então a intensidade do aquecedor deve ser **baixa**.
-- Se a temperatura é **morna**, então a intensidade do aquecedor deve ser **média**.
-- Se a temperatura é **quente**, então o ar-condicionado deve ser **alto**.
-
-### Aplicação da Lógica Fuzzy:
-A lógica fuzzy permite ajustar as variáveis de entrada, como "muito quente" ou "muito frio", com graus de pertinência, sem a necessidade de valores exatos. O sistema pode então tomar decisões de controle de forma mais flexível.
+Neste exemplo, utilizamos a biblioteca fuzzywuzzy para implementar uma pesquisa fuzzy que ajuda os usuários a encontrar jogos populares mesmo que a busca contenha variações ou erros de digitação. Além disso, aplicamos a lógica fuzzy para interpretar respostas afirmativas e negativas em diferentes idiomas.
 
 ## 4. Demonstração Prática com Python
 
@@ -124,6 +116,6 @@ print("Obrigado por usar o sistema de pesquisa fuzzy!")
 
 ## 5. Conclusão
 
-A lógica fuzzy é uma ferramenta poderosa para lidar com sistemas imprecisos e incertezas. No exemplo de controle de temperatura, a utilização da lógica fuzzy torna o sistema mais flexível e robusto, permitindo ajustes suaves na intensidade do ar-condicionado baseado nas condições do ambiente. A implementação prática foi realizada utilizando a biblioteca `scikit-fuzzy`, que oferece recursos para construir e simular sistemas de controle fuzzy de forma eficiente.
+A lógica fuzzy é uma ferramenta poderosa para lidar com imprecisões e incertezas, tornando a busca de informações mais acessível e eficiente. No exemplo prático, a pesquisa fuzzy permitiu que o sistema identificasse correspondências aproximadas para jogos, além de interpretar variações de respostas afirmativas e negativas.
 
-A lógica fuzzy é especialmente útil em sistemas de IA, onde a precisão exata dos dados não é possível ou necessária. Seu uso pode melhorar a performance de sistemas autônomos e inteligentes, tornando-os mais adaptáveis a diferentes condições e variáveis incertas.
+Esse método é particularmente útil em sistemas de IA onde os usuários podem fornecer entradas imprecisas ou variantes de um mesmo termo. Com essa abordagem, melhoramos a usabilidade do sistema, garantindo que os usuários encontrem as informações desejadas mesmo quando não digitam os termos de forma exata.
