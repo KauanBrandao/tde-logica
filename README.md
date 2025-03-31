@@ -1,34 +1,41 @@
-# Lógica Fuzzy e Aplicação em Inteligência Artificial
+## `Lógica Fuzzy e Aplicação em Inteligência Artificial`
 
-Este repositório contém uma revisão bibliográfica sobre **Lógica Fuzzy** e uma demonstração de como essa técnica pode ser aplicada para resolver um problema de **Controle de Temperatura** em um sistema de climatização inteligente. O exemplo prático é implementado em Python usando a biblioteca `scikit-fuzzy`, que facilita a criação de sistemas de lógica fuzzy.
+Este repositório contém uma revisão bibliográfica sobre Lógica Fuzzy e uma demonstração de como essa técnica pode ser aplicada para resolver um problema de Pesquisa Inteligente com Algoritmo Fuzzy. O exemplo prático é implementado em Python usando a biblioteca fuzzywuzzy, que facilita a criação de sistemas de pesquisa fuzzy.
 
-## 1. Introdução à Lógica Fuzzy
+## 1. `Introdução à Lógica Fuzzy`
 
-A **Lógica Fuzzy** (ou Lógica Difusa) é uma extensão da lógica booleana clássica, onde os valores não são restritos a apenas "verdadeiro" ou "falso" (1 ou 0), mas sim podem assumir qualquer valor entre 0 e 1. Isso permite representar incertezas e imprecisões de maneira mais próxima da forma como os seres humanos pensam e tomam decisões.
+A Lógica Fuzzy (ou Lógica Difusa) é uma extensão da lógica booleana clássica, onde os valores não são restritos a apenas "verdadeiro" ou "falso" (1 ou 0), mas sim podem assumir qualquer valor entre 0 e 1. Isso permite representar incertezas e imprecisões de maneira mais próxima da forma como os seres humanos pensam e tomam decisões.
 
-### Características principais:
-- **Conjuntos Fuzzy**: Elementos podem ter um grau de pertencimento entre 0 e 1, permitindo um comportamento mais flexível do que os conjuntos clássicos.
-- **Operadores Fuzzy**: Analogamente aos operadores da lógica clássica (como AND, OR e NOT), mas com valores contínuos.
-- **Inferência Fuzzy**: Processo de dedução baseado em regras fuzzy, permitindo chegar a conclusões a partir de várias informações imprecisas.
+### `Características principais: `
 
-## 2. Aplicações da Lógica Fuzzy em Inteligência Artificial
+Conjuntos Fuzzy: Elementos podem ter um grau de pertencimento entre 0 e 1, permitindo um comportamento mais flexível do que os conjuntos clássicos.
 
-A lógica fuzzy é amplamente utilizada para modelar sistemas com imprecisões, como **controle de processos**, **análise de dados**, **diagnóstico médico**, entre outros. Ela permite criar sistemas mais robustos para lidar com variáveis que não podem ser precisamente medidas.
+Operadores Fuzzy: Analogamente aos operadores da lógica clássica (como AND, OR e NOT), mas com valores contínuos.
 
-### Exemplos de Aplicação:
-- **Sistemas de Controle**: Como o controle de temperatura de um forno ou sistema de climatização.
-- **Análise de Riscos**: Avaliar riscos e probabilidades em sistemas financeiros ou de segurança.
-- **Sistemas de Diagnóstico**: Diagnóstico médico baseado em sintomas imprecisos.
+Inferência Fuzzy: Processo de dedução baseado em regras fuzzy, permitindo chegar a conclusões a partir de várias informações imprecisas.
 
-3. Problema de Inteligência Artificial Resolvido com Lógica Fuzzy
-Problema: Pesquisa Inteligente com Algoritmo Fuzzy
+## 2. `Aplicações da Lógica Fuzzy em Inteligência Artificial`
+
+A lógica fuzzy é amplamente utilizada para modelar sistemas com imprecisões, como controle de processos, análise de dados, diagnóstico médico, entre outros. Ela permite criar sistemas mais robustos para lidar com variáveis que não podem ser precisamente medidas.
+
+### `Exemplos de aplicação: `
+
+Sistemas de Pesquisa Inteligente: Melhorar a busca por termos em bancos de dados grandes, levando em conta erros de digitação e variações linguísticas.
+
+Análise de Riscos: Avaliar riscos e probabilidades em sistemas financeiros ou de segurança.
+
+Sistemas de Diagnóstico: Diagnóstico médico baseado em sintomas imprecisos.
+
+## 3. `Problema de Inteligência Artificial Resolvido com Lógica Fuzzy`
+
+### `Problema`: Pesquisa Inteligente com Algoritmo Fuzzy
+
 A busca por termos em uma base de dados pode ser desafiadora quando há variações na forma como os usuários digitam palavras, erros de digitação ou diferenças linguísticas. Um sistema de pesquisa baseado em lógica fuzzy pode resolver esse problema, permitindo encontrar correspondências aproximadas em vez de exigir uma correspondência exata.
 
 Neste exemplo, utilizamos a biblioteca fuzzywuzzy para implementar uma pesquisa fuzzy que ajuda os usuários a encontrar jogos populares mesmo que a busca contenha variações ou erros de digitação. Além disso, aplicamos a lógica fuzzy para interpretar respostas afirmativas e negativas em diferentes idiomas.
 
-## 4. Demonstração Prática com Python
 
-Abaixo está o código em Python que implementa um sistema de controle de temperatura utilizando lógica fuzzy.
+## 4. `Demonstração Prática com Python`
 
 ### Código:
 
@@ -114,7 +121,7 @@ while True:
 print("Obrigado por usar o sistema de pesquisa fuzzy!")
 ``` 
 
-## 5. Conclusão
+## 5. `Conclusão`
 
 A lógica fuzzy é uma ferramenta poderosa para lidar com imprecisões e incertezas, tornando a busca de informações mais acessível e eficiente. No exemplo prático, a pesquisa fuzzy permitiu que o sistema identificasse correspondências aproximadas para jogos, além de interpretar variações de respostas afirmativas e negativas.
 
